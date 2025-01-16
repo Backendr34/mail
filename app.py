@@ -10,7 +10,7 @@ app.config['MAIL_USERNAME'] = 'c8c8e5aa6095ff'
 app.config['MAIL_PASSWORD'] = '161da9b507e2d0'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
-app.config['MAIL_DEFAULT_SENDER'] = 'default@gmail.com'  
+app.config['MAIL_DEFAULT_SENDER'] = 'default@gmail.com'  # <-- user email will be here , Link HTMl PAGE
 
 mail = Mail(app)
 
